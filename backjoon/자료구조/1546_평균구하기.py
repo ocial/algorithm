@@ -1,5 +1,6 @@
 import sys
 
+
 n = sys.stdin.readline().rstrip()
 score_list = list(map(int, input().split()))
 max_score = max(score_list)
